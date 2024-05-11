@@ -10,7 +10,16 @@ VLSI engineers communicate with foundries.
 
 'MACROS' are pure digital blocks inside a chip.
 Here I'll be speaking few words on ASIC flow of RTL to GDSII
+![Screenshot (487)](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3501fbcc-f9bc-41ae-8d26-25e2c0378168)
 
-![Screenshot (487)](https://github.com/himanshuat01/VSD-workshop/assets/114060372/54f24a12-e698-48bb-921d-867f50db94d6)
+Here the first step is getting an RTL
+--> RTL stands for Register-Transfer-Level. We can write a Verilog code or a VHDL code for an RTL.
+--> Synthesis is nothing but converting RTL code to its equal component level blocks from the standard cell library (SCL).
+--> FP+PP stands for floor planning and Placement planning where the first term defines where the particular component has to be, what size and shape should it be. The latter involves binding of netlist with physical cells.
+--> CTS stands for clock tree synthesis which is a process used for distributing clock signal equally among all comoponents.
+--> Routing is making physical connectionns(links) between signal pins using metal layer.
+--> And then Sign-off is nothing but to verify the design before going for tapeout.
+--> GDS- Graphic design system is the final output product or file which is to be given to foundry for the IC to get it manifactured.
+
 
 
