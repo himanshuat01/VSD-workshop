@@ -24,3 +24,28 @@ Here the first step is getting an RTL
 
 
 
+# **INVOKING THE TOOL**  
+since we are using linux os (ubuntu 64 bit) there is a bit of bash programming to be done in order to invoke the tool **OPENLANE**  
+--> The tool is present in the work folder of desktop.  
+--> work  
+--> tools  
+--> openlane_working_dir  
+--> openlane  
+and then inside the tool are many files related, here we will be looking into few files such as designs, config.tcl and so on  
+to invoke the tool  
+--> type 'docker'  
+and then for startin the tool we give the command ./flow.tcl -interactive  
+So now you will be able to see the openlane tool invoked in the terminal itself.  
+Now you should be able to see a screen something like this  
+![openlane_start](https://github.com/himanshuat01/VSD-workshop/assets/114060372/20713412-5fd2-4418-b744-76ec03921139)  
+And to see different projects present inside the design folder, you can separately do that as well.  
+Here i have opened the designs folder to show the number of projects.  
+![openlane_start](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c4a1fcfc-b0e9-4e50-8139-d36af24f846d)  
+Now we will be working on synthesis of picorv32a.   
+
+
+
+
+
+
+
