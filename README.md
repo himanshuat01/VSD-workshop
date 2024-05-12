@@ -51,6 +51,16 @@ Before synthesis we need to prepare run folder inside the project folder of desi
 Below image marked for the presence of folder with the date of  creation.  
 ![run_folder_inside_picorv32a](https://github.com/himanshuat01/VSD-workshop/assets/114060372/0a03e0d1-4346-4722-8fd1-fa07ceba59c3)  
 
+  **Now that Preparation is done we can move on to synthesis.**   
+--> Run command run_synthesis. It will take few minutes to execute and if any errors are present it would pop up here.  
+after completion you will receive a return which would look something like this.  
+![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/16223132-498f-4544-a748-40a7b9b9b2cc)  
+* above image shows synthesis successful.
+* 
+
+
+  
+
 
 
 
