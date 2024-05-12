@@ -42,7 +42,7 @@ And to see different projects present inside the design folder, you can separate
 Here i have opened the designs folder to show the number of projects.  
 ![openlane_start](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c4a1fcfc-b0e9-4e50-8139-d36af24f846d)  
 
-  
+  #**Running Simulations**
 Now we will be working on synthesis of picorv32a.  
 Before synthesis we need to prepare run folder inside the project folder of designs.  
 --> can be done by runnning the command 'prep-design picorv32a'  
@@ -56,7 +56,7 @@ Below image marked for the presence of folder with the date of  creation.
 after completion you will receive a return which would look something like this.  
 ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/16223132-498f-4544-a748-40a7b9b9b2cc)  
 * above image shows synthesis successful.
-* 
+
 
 
   
