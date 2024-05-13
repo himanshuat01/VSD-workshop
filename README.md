@@ -59,7 +59,7 @@ Below image marked for the presence of folder with the date of  creation.
 after completion you will receive a return which would look something like this.  
 ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/16223132-498f-4544-a748-40a7b9b9b2cc)  
 * above image shows synthesis successful.
-* Our one of the objective from this is to find the clock ratio which is the ratio of total number of Dff's to the total number of cells in the design.  
+* Our one of the objective from this is to find the flop ratio which is the ratio of total number of Dff's to the total number of cells in the design.  
 * It can be noticed in the below image that the total number of Dff's are 1634 and the total number of cells are 17323.
 * The ratio comes out to be 0.09432 and in percentage comes to be 9.432.
   ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/bb266198-48d5-437b-b88d-d448b44e4c93)
