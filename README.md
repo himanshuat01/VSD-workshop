@@ -25,6 +25,8 @@ Here the first step is getting an RTL
 
 
 # **INVOKING THE TOOL**  
+### **DAY-1**  
+
 since we are using linux os (ubuntu 64 bit) there is a bit of bash programming to be done in order to invoke the tool **OPENLANE**  
 --> The tool is present in the work folder of desktop.  
 --> work  
