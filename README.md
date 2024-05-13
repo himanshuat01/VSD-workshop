@@ -16,7 +16,7 @@ Here I'll be speaking few words on ASIC flow of RTL to GDSII
 Here the first step is getting an RTL  
 --> RTL stands for Register-Transfer-Level. We can write a Verilog code or a VHDL code for an RTL.  
 --> Synthesis is nothing but converting RTL code to its equal component level blocks from the standard cell library (SCL).   
---> FP+PP stands for floor planning and Placement planning where the first term defines where the particular component has to be, what size and shape should it be. The latter involves binding of netlist with physical cells.  
+--> FP+PP stands for floor planning and Power planning where the first term defines where the particular component has to be, what size and shape should it be. The latter involves binding of netlist with physical cells.  
 --> CTS stands for clock tree synthesis which is a process used for distributing clock signal equally among all comoponents.  
 --> Routing is making physical connectionns(links) between signal pins using metal layer.  
 --> And then Sign-off is nothing but to verify the design before going for tapeout.  
