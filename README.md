@@ -75,6 +75,12 @@ after completion you will receive a return which would look something like this.
   ![FP-core-util](https://github.com/himanshuat01/VSD-workshop/assets/114060372/e8e9591a-6b8b-4b1f-a840-7667969df8cd)
   The folder which will be generated after running floor plan on that particular date would look something like this..
  ![runs_folder after floorplan](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3e09085b-86ec-4d27-8b60-f1310aa11660)
+--> To view the die area open def file present inside the floorplan folder.
+  --> shown below 1micron is equal to 1000dbu (data base units).
+  ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/00bd80ac-6edf-480e-8bc3-c8f6d8870506
+  
+  
+  
 
 
   
