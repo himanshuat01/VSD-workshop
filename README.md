@@ -63,6 +63,28 @@ after completion you will receive a return which would look something like this.
 * It can be noticed in the below image that the total number of Dff's are 1634 and the total number of cells are 17323.
 * The ratio comes out to be 0.09432 and in percentage comes to be 9.432.
   ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/bb266198-48d5-437b-b88d-d448b44e4c93)
+
+     ## **DAY-2**
+  To run floor plan, we have to give a command called as run_floorpan after you run simulation.   
+  --> run_floorplan
+  --> this will create a folder inside runs folder of designs's path of picorv32a.   
+  planning will take a couple of minute to execute.
+  After which the result would look likt the below given images.
+![PDN-gen_succesful](https://github.com/himanshuat01/VSD-workshop/assets/114060372/df7d39c5-8cbc-4196-aca4-6c72408ec8f2)
+--> To view the metals i.e., VMetal and HMetal (vertical metal and horizontal metal respt.) the details of so will be available in config.tcl of the newly generated file of floorplan after you run the command which is depicted below.
+  ![FP-core-util](https://github.com/himanshuat01/VSD-workshop/assets/114060372/e8e9591a-6b8b-4b1f-a840-7667969df8cd)
+  The folder which will be generated after running floor plan on that particular date would look something like this..
+ ![runs_folder after floorplan](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3e09085b-86ec-4d27-8b60-f1310aa11660)
+
+
+  
+
+
+
+
+  
+
+  
   
 
 
