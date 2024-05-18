@@ -88,9 +88,9 @@ after completion you will receive a return which would look something like this.
   2). DRC - Design rule check. Certain rules set by the Fab unit for every particular pdk to follow for proper fabrication.       
   3). The technology node which is sky130A.    
   4). All different layers avaliable to use.     
---> Along the layout window there is another window called the tkcon window used to type commands and for automating.    
+--> Along with the layout window there is another window called the tkcon window used to type commands and for automating.    
   ![tkcon_window](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3a48609a-f014-4732-88c3-ab8bc8e7d4cc)
-  *Above arrowed image depicts the **tkcon** window
+  * Above arrowed image depicts the **tkcon** window
   
 
  
