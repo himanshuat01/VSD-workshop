@@ -69,7 +69,7 @@ after completion you will receive a return which would look something like this.
   --> run_floorplan
   --> this will create a folder inside runs folder of designs's path of picorv32a.   
   planning will take a couple of minute to execute.
-  After which the result would look likt the below given images.
+  After which the result would look like below given images.
 ![PDN-gen_succesful](https://github.com/himanshuat01/VSD-workshop/assets/114060372/df7d39c5-8cbc-4196-aca4-6c72408ec8f2)
 --> To view the metals i.e., VMetal and HMetal (vertical metal and horizontal metal respt.) the details of so will be available in config.tcl of the newly generated file of floorplan after you run the command which is depicted below.
   ![FP-core-util](https://github.com/himanshuat01/VSD-workshop/assets/114060372/e8e9591a-6b8b-4b1f-a840-7667969df8cd)
