@@ -79,6 +79,21 @@ after completion you will receive a return which would look something like this.
   --> shown below 1micron is equal to 1000dbu (data base units).   
   ![image](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3cd0b319-68e2-4086-8c1a-987c97bc2fc5)
 
+  -->To view floorplan in MAGIC (opensource softare for layouts) we have to invoke it by calling **magic -T** along with the path of rcfile wwhich describres about the technology we are using. Here the **-T** switch is used to define the technology node.   
+  --> home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+  *The tool will look as below, here we have opened picorv32a' layout.
+  ![layout_opened_in_magic](https://github.com/himanshuat01/VSD-workshop/assets/114060372/fec5e8ac-327d-46f5-8171-4d26ae0c0bf9)
+  I would like to mention on few points here
+  1). The path and invoking command for Magic.   
+  2). DRC - Design rule check. Certain rules set by the Fab unit for every particular pdk to follow for proper fabrication.   
+  3). The technology node which is sky130A.
+  4). All different layers avaliable to use.
+--> Along the layout window there is another window called the tkcon window used to type commands and for automating.
+  ![tkcon_window](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3a48609a-f014-4732-88c3-ab8bc8e7d4cc)
+  
+
+ 
+
   
   
   
