@@ -90,7 +90,25 @@ after completion you will receive a return which would look something like this.
   4). All different layers avaliable to use.     
 --> Along with the layout window there is another window called the tkcon window used to type commands and for automating.    
   ![tkcon_window](https://github.com/himanshuat01/VSD-workshop/assets/114060372/3a48609a-f014-4732-88c3-ab8bc8e7d4cc)
-  * Above arrowed image depicts the **tkcon** window
+  * Above arrowed image depicts the **tkcon** window.
+    --> The next step is to run placement by using te command **run_placement**.
+    This will take a while to execute as there are many iterations to be performed.
+    --> Once it is completed the terminal will have it like this.
+    ![runplacementcompl](https://github.com/himanshuat01/VSD-workshop/assets/114060372/5ba35b90-4b46-4600-877e-0d76bddcf05c)
+  --> To view placement in MAGIC we have to open magic along with reading the picorv32a placement.def file with the help of below command.
+  -->magic -T /home/vsdworkshop/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+* Once tool is invoked along with pre placed blocks all other blocks are placed too.
+  ![placement_opened_in_magic](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c85eedbf-df56-429a-8409-71dd6b01d8f1)
+  ![interior_view_of_placement](https://github.com/himanshuat01/VSD-workshop/assets/114060372/85248feb-1adc-445a-8df1-b286daffa601)
+  * To view Decoupling capacitors we need to zoom-in to boundries of the cell which is shown below here,
+  ![decaps in placement](https://github.com/himanshuat01/VSD-workshop/assets/114060372/15fc1ff5-73d4-4e50-83fa-cb63fd701536)
+
+
+
+
+
+
+
   
 
  
