@@ -132,10 +132,10 @@ Fall time = 0.09ns
   and start working. Here we open an already exisiting file i.e., met3 which looks like this.
   ![met3](https://github.com/himanshuat01/VSD-workshop/assets/114060372/ec4e6a72-27cf-43b4-898f-35ce1b5fa74a)
   view after loading poly:
-   ![load_poly](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c0a3c9c9-536d-4ccf-bc0e-07bd04bbeee2) 
+   ![load_poly](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c0a3c9c9-536d-4ccf-bc0e-07bd04bbeee2)   
    
-     After adding n-diff and p-diff, we get:  
-      ![addn_ndiff_pdiff](https://github.com/himanshuat01/VSD-workshop/assets/114060372/8bc3da47-15da-4a1c-80e3-9af33dd2dc39)   
+After adding n-diff and p-diff, we get:  
+ ![addn_ndiff_pdiff](https://github.com/himanshuat01/VSD-workshop/assets/114060372/8bc3da47-15da-4a1c-80e3-9af33dd2dc39)   
       
 
    
