@@ -122,6 +122,29 @@ after completion you will receive a return which would look something like this.
       after running the command **ngspice sky130_inv.spice** we get the total outputs and to plot it we give another command based on the nodes available.
       --> plot y vs time a we get the output of transient analysis.
       ![transient_analysis_inv](https://github.com/himanshuat01/VSD-workshop/assets/114060372/ed440302-6c78-4b8f-80a6-30c8e4d698ff)
+
+    Fall time = 0.09ns
+    Rise time = 0.10ns
+    ![fall_time](https://github.com/himanshuat01/VSD-workshop/assets/114060372/71584bca-2c20-48d2-9ad7-963ce9b0cb0c)   
+
+
+    After downloading the required files from git by using wgit, then by running the command magic -d XR we can openout magic tool
+    and start working. Here we open an already exisiting file i.e., met3 which looks like this.
+    ![met3](https://github.com/himanshuat01/VSD-workshop/assets/114060372/ec4e6a72-27cf-43b4-898f-35ce1b5fa74a)
+    view after loading poly:
+    ![load_poly](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c0a3c9c9-536d-4ccf-bc0e-07bd04bbeee2)
+
+      After adding n-diff and p-diff, we get:
+    ![addn_ndiff_pdiff](https://github.com/himanshuat01/VSD-workshop/assets/114060372/effc2d3c-65d4-4508-8939-71838215a5e3)
+    
+
+
+
+    
+
+    
+
+    
       
 
 
