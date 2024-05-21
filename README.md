@@ -136,6 +136,27 @@ Fall time = 0.09ns
    
 After adding n-diff and p-diff, we get:  
  ![addn_ndiff_pdiff](https://github.com/himanshuat01/VSD-workshop/assets/114060372/8bc3da47-15da-4a1c-80e3-9af33dd2dc39)   
+
+   To find the tracks present we can go to the track info file present inside pdks of openlane.   
+   ![tracks present inside openlane](https://github.com/himanshuat01/VSD-workshop/assets/114060372/97cfe349-9da6-4309-812c-cf18651bb756)   
+
+
+  ## **DAY-4**   
+
+    
+  --> Setting up of grid   
+![grid_setup](https://github.com/himanshuat01/VSD-workshop/assets/114060372/58c993d9-8be2-4d03-a41f-a9af30fcfd25)   
+--> to get a lef file we use a command call **lef write** in tkcon window.   
+![to_create_lef_file](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c00cc428-e6c3-40c7-b6d9-1e7a0c55fab2)   
+--> to view contents inside this file go back to main terminal and check for any .lef files present inside pwd.
+lef file would look like this.   
+![inside_lef_file-window](https://github.com/himanshuat01/VSD-workshop/assets/114060372/2b9406e7-8af4-4756-b4b4-323f36254499)    
+
+
+
+
+
+   
       
 
    
