@@ -105,6 +105,39 @@ after completion you will receive a return which would look something like this.
 
 
 
+    ## **DAY-3**
+
+      --> To view the layout of standard cell inverter in magic tool we invoke it by copying the tech file and call it with the mag file. Once its done magic tool opens and the inverter's layout will look something like this.
+    ![inv_in_magic](https://github.com/himanshuat01/VSD-workshop/assets/114060372/f9345667-7f8e-498f-8570-ff1be26fd0c4)
+    * now lets extract it spice format by **giving ext2spice** in tkcon window.     
+    * The spice file will be generated and will be stored in pwd.
+      ![spice_extracted](https://github.com/himanshuat01/VSD-workshop/assets/114060372/a3cb2db1-050c-4a18-8593-cacf82a775aa)
+      
+      --> To view the spice generated file we have to give the command **vim sky130_inv.spice**.   
+      ![contents_inside_spice_file](https://github.com/himanshuat01/VSD-workshop/assets/114060372/a9096075-d7cd-4a6e-ad10-1ca3ad26bae4)
+
+        --> we have to edit few lines of code after which it is
+      ![code_edited](https://github.com/himanshuat01/VSD-workshop/assets/114060372/c37bfe82-5172-4944-83cd-be2073d161e2)
+
+      after running the command **ngspice sky130_inv.spice** we get the total outputs and to plot it we give another command based on the nodes available.
+      --> plot y vs time a we get the output of transient analysis.
+      ![transient_analysis_inv](https://github.com/himanshuat01/VSD-workshop/assets/114060372/ed440302-6c78-4b8f-80a6-30c8e4d698ff)
+      
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
 
 
 
